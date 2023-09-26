@@ -1,0 +1,139 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+:root{
+    --primary-color:#020305;
+    --secundary-color:#A9C2CB;
+    --background-color:#FFFF;
+    --p-color:#171E27;
+}
+
+
+ *{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+
+}
+header{
+    gap: 540px;
+    margin-top: 2%;
+    margin-bottom: 2.5%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start;  
+    align-items: center;
+}
+header img{
+    width: 205px;
+    height: 32px;
+}
+menu{
+    display: flex;
+    flex-direction: row;   
+    gap: 80px;
+    align-items: center;
+   
+}
+ a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+.btn_action{
+ width: 161px;
+ height: 67px;  
+ background-color: #0D0F12; 
+ border: 0px;
+ border-radius: 20px;
+ color: var(--background-color);
+box-shadow:0px 25px 45px #0203054a;
+}
+
+.carossel{
+    position: relative;
+}
+.carossel h1{
+    top: 20px;
+    padding-left: 100px;
+    position: absolute;
+    color:#FFFF;
+    font-size: 54px;
+    font-weight: 700;
+    width: 400px;
+
+}
+.call_action{
+    width: 650px;
+    position: absolute;
+    top: 550px;
+    padding: 15px;
+    
+}
+.call_action p{
+    font-weight: 500;
+} 
+.btn_Hover{ 
+    margin-top: 50px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+.btn_Hover button{
+    font-weight: 600;   
+
+}
+.parceiros{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+    gap: 200px;    
+}
+.btn_play{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.features{
+   display: flex;
+   flex-direction: row; 
+   justify-content: space-between;
+}
+.features_row{
+    display: flex;
+    flex-direction: row;
+    gap:150px;
+    margin-top:85px;
+}
+.feature_item{
+width: 360px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+}
+.feature_item img{
+    margin-left: 35px;
+}
+.feature_item h2{
+    margin:5px;
+    font-size: 24px;
+    font-weight: 800;   
+}
+.feature_item p{
+    font-size: 18px;
+    margin:5px;
+    font-weight: 500;
+}
+.features_call h2{
+    font-size: 54px;
+    font-weight: 800;
+    width: 500px;
+   
+}
